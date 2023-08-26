@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.nav-bar {
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+.logo {
+  width: 14vw;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.brand {
+  font-size: 30px;
+  color: #f94a3d;
+}
+.nav-menu {
+  display: flex;
+  width: 60vw;
+  justify-content: center;
+}
+
+.menu-item {
+  margin: 15px;
+}
+.signin {
+  background-color: #f94a3d;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 80px;
+  height: 30px;
+}
+.nav-right {
+  width: 26vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.search-bar {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.hero {
+  width: 100;
+  display: flex;
+}
+.hero-btn {
+  height: 60px;
+  width: 150px;
+  font-size: 20px;
+}
+.hero-heading {
+  font-size: 60px;
+}
+span {
+  color: #f94a3d;
+}
+.hero-left {
+  padding: 100px 60px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.hero-left > p {
+  font-size: 20px;
+  margin: 30px 0px;
+}
+.hero-right {
+  width: 50%;
+}
+.special {
+  display: flex;
+  margin: 20px 200px;
+}
+.special-item {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 8px;
+  height: 350px;
+  width: 200px;
+  flex: 1;
+}
+.special-item > p {
+  margin-top: 45px;
+  font-size: 15px;
+}
+.special-menu {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.special-menu > p {
+  margin: 10px;
+}
+.special-menu > p:hover,
+td:hover,
+.menu-item:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+  cursor: pointer;
+}
+.buy-btn {
+  background-color: #f94a3d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.footer-sec {
+  background-color: rgb(255, 221, 221);
+  display: flex;
+}
+.left {
+  margin: 50px 100px;
+  width: 250px;
+}
+.left > p,
+td {
+  margin: 20px 0px;
+  font-size: 14px;
+  color: gray;
+}
+.right {
+  margin-top: 50px;
+}
+.head {
+  color: black;
+}
